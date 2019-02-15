@@ -12,7 +12,7 @@ The focus is on the basic concepts and practical implementation of SVARs. As suc
 
 `SVAR_demo.mlx`: MATLAB implementation of the example in the slides. This is an interactive Live Script with extensive comments and explanations. Open this file inside MATLAB or see the HTML or PDF version for a quick preview.
 
-`SVAR_demo.html`: HTML version of `SVAR_demo.mlx`. For a rendered version see [here]() or [here]().
+`SVAR_demo.html`: HTML version of `SVAR_demo.mlx`. For a rendered version see [here](https://lrondina.github.io/matlab_html_scripts/SVAR_demo.html) or [here](http://htmlpreview.github.io/?https://github.com/LRondina/SVARs-Intro/blob/master/Codes/SVAR_demo.html).
 
 `SVAR_demo.pdf`: PDF version of `SVAR_demo.mlx`.
 
