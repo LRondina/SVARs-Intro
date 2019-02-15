@@ -18,6 +18,15 @@ The focus is on the basic concepts and practical implementation of SVARs. As suc
 
 `SVAR_demo.m`: Less exciting version of `SVAR_demo.mlx`.
 
+### Download
+
+This repository contains a **git submodule** with the VAR toolbox. If you try to simply clone the repository or download it as a zip file, GitHub will download the files of this repository **without** the files in `Codes/VAR_toolbox`.
+
+To obtain this repository with the toolbox included, you have two options:
+
+1. Direct download ([zip version](https://lrondina.github.io/downloads/SVARs-Intro.zip))
+
+2. Clone with submodule: `git clone --recurse-submodules https://github.com/LRondina/SVARs-Intro`
 
 ### Software and dependencies
 
@@ -26,3 +35,6 @@ The focus is on the basic concepts and practical implementation of SVARs. As suc
 - [VAR Toolbox 2.0](https://sites.google.com/site/ambropo/MatlabCodes) (a version of this toolbox is provided with this repository with minor modifications to handle plots and figures)
 
 - [Datafeed toolbox](https://uk.mathworks.com/products/datafeed.html)
+
+
+
