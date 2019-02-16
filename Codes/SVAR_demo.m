@@ -45,7 +45,7 @@
 % 
 % Here we use the Datafeed toolbox to fetch data from the FRED data server.
 
-if contains(matlabpath,'toolbox\datafeed\datafeed')
+if contains(matlabpath,['toolbox' filesep 'datafeed'])
     % Fetches data from FRED and saves it in raw_data.mat
     try
         % Create connection with FRED server
@@ -74,6 +74,9 @@ if contains(matlabpath,'toolbox\datafeed\datafeed')
         disp('Unable to download data from FRED!')
         fetched = false;
     end
+else
+    disp('Could not find the datafeed toolbox.')
+    fetched = false;
 end
 
 % If the toolbox is not available in your MATLAB license or fetching data 
@@ -167,7 +170,7 @@ X = [Pi Y R];
 % Select 'true' or 'false' if you want to plot data
 plot_data = true;
 if plot_data
-    plot(data.dates,data.Variables)
+    plot(dates,data.Variables)
     legend(data.Properties.VariableNames)
 end
 
